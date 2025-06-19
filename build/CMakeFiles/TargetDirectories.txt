@@ -1,0 +1,3 @@
+C:/Users/alund/OneDrive - Falmouth University/C++/RayTracing/build/CMakeFiles/RayTracing.dir
+C:/Users/alund/OneDrive - Falmouth University/C++/RayTracing/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/alund/OneDrive - Falmouth University/C++/RayTracing/build/CMakeFiles/ZERO_CHECK.dir

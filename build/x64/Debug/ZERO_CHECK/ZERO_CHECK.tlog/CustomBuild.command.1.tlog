@@ -1,0 +1,10 @@
+^C:\USERS\ALUND\ONEDRIVE - FALMOUTH UNIVERSITY\C++\RAYTRACING\BUILD\CMAKEFILES\2569106A99B51C114B46EDC8B71BC13E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/alund/OneDrive - Falmouth University/C++/RayTracing" "-BC:/Users/alund/OneDrive - Falmouth University/C++/RayTracing/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/alund/OneDrive - Falmouth University/C++/RayTracing/build/RayTracing.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
