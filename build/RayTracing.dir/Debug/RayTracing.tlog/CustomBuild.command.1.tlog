@@ -1,6 +1,6 @@
-^C:\USERS\ALUND\ONEDRIVE - FALMOUTH UNIVERSITY\C++\RAYTRACING\CMAKELISTS.TXT
+^C:\FORK\RAYTRACING\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/alund/OneDrive - Falmouth University/C++/RayTracing" "-BC:/Users/alund/OneDrive - Falmouth University/C++/RayTracing/build" --check-stamp-file "C:/Users/alund/OneDrive - Falmouth University/C++/RayTracing/build/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Fork/RayTracing -BC:/Fork/RayTracing/build --check-stamp-file C:/Fork/RayTracing/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

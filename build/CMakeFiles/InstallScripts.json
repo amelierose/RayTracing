@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/alund/OneDrive - Falmouth University/C++/RayTracing/build/cmake_install.cmake"
+		"C:/Fork/RayTracing/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\alund\OneDrive - Falmouth University\C++\RayTracing\build\CMakeFiles\2569106a99b51c114b46edc8b71bc13e\generate.stamp.rule">
+    <CustomBuild Include="C:\Fork\RayTracing\build\CMakeFiles\b0093781c081027a8bf224398a30a6f0\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{A26540CB-D9C7-3F07-A309-4B505C45A090}</UniqueIdentifier>
+      <UniqueIdentifier>{302DDC20-2023-39D7-BCA1-4EC57CD9CF3D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
