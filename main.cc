@@ -8,10 +8,10 @@
 //this is done by finding solutions with the quadratic equation
 double hit_sphere(const point3& center, double radius, const ray& r) {
 	vec3 oc = center - r.origin();
-	auto a = dot(r.direction(), r.direction());
-	auto b = -2.0 * dot(r.direction(), oc);
-	auto c = dot(oc, oc) - radius * radius;
-	auto discriminant = b*b - 4*a*c;
+	auto a = r.direction().length_squared();
+	auto h = dot(r.direction(), oc);
+	auto c = oc.length_squared() - radius * radius;
+	auto discriminant = h*h - a*c;
 	
 	if (discriminant < 0) {
 		return -1.0;
@@ -19,7 +19,7 @@ double hit_sphere(const point3& center, double radius, const ray& r) {
 	
 	//only normalise if the ray actually hits the sphere
 	else {
-		return (-b - std::sqrt(discriminant)) / (2.0 * a);
+		return (h - std::sqrt(discriminant)) / a;
 	}
 }
 
