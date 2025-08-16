@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Fork\RayTracing\main.cc">
+    <ClCompile Include="D:\RayTracing\main.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Fork\RayTracing\CMakeLists.txt" />
+    <CustomBuild Include="D:\RayTracing\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{627D1C79-39FD-30E4-9E77-F5D3EB9F1802}</UniqueIdentifier>
+      <UniqueIdentifier>{78ABC4F7-7759-368D-9182-A3AE842F5EF0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

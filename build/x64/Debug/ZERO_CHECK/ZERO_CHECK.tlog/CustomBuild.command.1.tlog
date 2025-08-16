@@ -1,6 +1,6 @@
-^C:\FORK\RAYTRACING\BUILD\CMAKEFILES\B0093781C081027A8BF224398A30A6F0\GENERATE.STAMP.RULE
+^D:\RAYTRACING\BUILD\CMAKEFILES\B579D2C354B842C6986353C4B34CE517\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Fork/RayTracing -BC:/Fork/RayTracing/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Fork/RayTracing/build/RayTracing.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/RayTracing -BD:/RayTracing/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/RayTracing/build/RayTracing.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

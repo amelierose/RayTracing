@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Fork/RayTracing/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

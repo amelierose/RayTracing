@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Fork\RayTracing\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\RayTracing\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Fork\RayTracing\build\Debug\RayTracing.exe</FullPath>
+      <FullPath>D:\RayTracing\build\Debug\RayTracing.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

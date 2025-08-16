@@ -1,6 +1,6 @@
-^C:\FORK\RAYTRACING\CMAKELISTS.TXT
+^D:\RAYTRACING\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Fork/RayTracing -BC:/Fork/RayTracing/build --check-stamp-file C:/Fork/RayTracing/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/RayTracing -BD:/RayTracing/build --check-stamp-file D:/RayTracing/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
